@@ -1,0 +1,10 @@
+.DS_Store
+*.xcodeproj/xcuserdata
+*.xcodeproj/project.xcworkspace/xcuserdata
+*.xcodeproj/project.xcworkspace/xcshareddata
+build
+lanaTetris.vcxproj/Debug
+lanaTetris.vcxproj/Release
+lanaTetris.vcxproj/lanaTetris.sdf
+lanaTetris.vcxproj/lanaTetris.opensdf
+lanaTetris.vcxproj/lanaTetris.*.suo

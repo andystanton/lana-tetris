@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\drawing\foundation\Colour.cpp" />
+    <ClCompile Include="..\src\drawing\foundation\Palette.cpp" />
+    <ClCompile Include="..\src\drawing\GameplayDisplayer.cpp" />
+    <ClCompile Include="..\src\drawing\PrimitiveDisplayer.cpp" />
+    <ClCompile Include="..\src\drawing\TextDisplayer.cpp" />
+    <ClCompile Include="..\src\drawing\UIDisplayer.cpp" />
+    <ClCompile Include="..\src\model\entity\basic\Alphabet.cpp" />
+    <ClCompile Include="..\src\model\entity\basic\Character.cpp" />
+    <ClCompile Include="..\src\model\entity\basic\Segment.cpp" />
+    <ClCompile Include="..\src\model\entity\Entity.cpp" />
+    <ClCompile Include="..\src\model\entity\tetris\Quad.cpp" />
+    <ClCompile Include="..\src\model\entity\tetris\QuadHeap.cpp" />
+    <ClCompile Include="..\src\model\entity\tetris\Tetromino.cpp" />
+    <ClCompile Include="..\src\model\entity\tetris\TetrominoFactory.cpp" />
+    <ClCompile Include="..\src\model\entity\tetris\TetrominoType.cpp" />
+    <ClCompile Include="..\src\model\entity\tetris\TetrominoTypeFactory.cpp" />
+    <ClCompile Include="..\src\model\entity\tetris\World.cpp" />
+    <ClCompile Include="..\src\model\entity\transformation\Pipeline.cpp" />
+    <ClCompile Include="..\src\model\entity\transformation\PipelineResult.cpp" />
+    <ClCompile Include="..\src\model\entity\transformation\Rotation.cpp" />
+    <ClCompile Include="..\src\model\entity\transformation\Transformation.cpp" />
+    <ClCompile Include="..\src\model\entity\transformation\TransformationData.cpp" />
+    <ClCompile Include="..\src\model\entity\transformation\Translation.cpp" />
+    <ClCompile Include="..\src\model\foundation\Vec2d.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\drawing\foundation\Colour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\drawing\foundation\Palette.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\drawing\GameplayDisplayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\drawing\PrimitiveDisplayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\drawing\TextDisplayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\drawing\UIDisplayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\model\entity\basic\Alphabet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\model\entity\basic\Character.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\model\entity\basic\Segment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\model\entity\collision\Collidable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\model\entity\Coordinated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\model\entity\Drawable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\model\entity\Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\model\entity\tetris\Quad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\model\entity\tetris\QuadHeap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\model\entity\tetris\Tetromino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\model\entity\tetris\TetrominoFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\model\entity\tetris\TetrominoType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\model\entity\tetris\TetrominoTypeFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\model\entity\tetris\World.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\model\entity\transformation\Pipeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\model\entity\transformation\PipelineResult.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\model\entity\transformation\Rotation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\model\entity\transformation\Transformation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\model\entity\transformation\TransformationData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\model\entity\transformation\TransformationType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\model\entity\transformation\Translation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\model\foundation\Vec2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
