@@ -1,4 +1,4 @@
-# lanaTetris
+# Tetris
 ## Controls
 A : Rotate Left
 S : Rotate Right
