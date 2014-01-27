@@ -1,19 +1,25 @@
 # Tetris
 ## Controls
+
 A : Rotate Left
 S : Rotate Right
 Left : Move Left
 Right : Move Right
 Down : Downward Acceleration
 Space : Pause
+
 ## Debug Controls
+
 ### Gameplay Controls
+
 Q : Regular Mode
 W : Frozen Mode
 E : Infinity Mode
 - : Slow Down
 = : Speed Up
+
 ### Tetromino Switching
+
 1 : I Tetromino
 2 : O Tetromino
 3 : T Tetromino
