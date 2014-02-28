@@ -1,7 +1,9 @@
 language: cpp
 compiler: clang
 install:
-# libstdc++-4.7-dev
+# libstdc++-4.8-dev
+#  * required because http://gcc.gnu.org/bugzilla/show_bug.cgi?id=53841
+#  * using https://github.com/dream-framework/tagged-format/blob/master/.travis.yml as reference
     - sudo add-apt-repository --yes ppa:ubuntu-toolchain-r/test
     - sudo apt-get -qq update
     - sudo apt-get -qq install libstdc++-4.8-dev 
