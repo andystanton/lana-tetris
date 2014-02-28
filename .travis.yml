@@ -2,6 +2,7 @@ language: cpp
 compiler: clang
 install:
 # required x11 and opengl libs
+    - sudo apt-get -qq install libstdc++6-4.7-dev
     - sudo apt-get -qq install xorg-dev
     - sudo apt-get -qq install libglu1-mesa-dev
 # cmake
