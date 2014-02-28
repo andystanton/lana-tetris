@@ -3,6 +3,7 @@ compiler: clang
 install:
 # libstdc++-4.7-dev
     - sudo add-apt-repository --yes ppa:ubuntu-toolchain-r/test
+    - sudo apt-get -qq update
     - sudo apt-get -qq install libstdc++-4.8-dev 
 # required x11 and opengl libs
     - sudo apt-get -qq install xorg-dev
