@@ -1,4 +1,5 @@
-# Tetris
+# Lana Tetris [![Build Status](https://travis-ci.org/andystanton/lana-tetris.png?branch=master)](https://travis-ci.org/andystanton/lana-tetris)
+
 ## Controls
 
  * A : Rotate Left
