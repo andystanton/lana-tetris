@@ -4,7 +4,8 @@ project(lana-tetris)
 set(lana-tetris_VERSION_MAJOR 1)
 set(lana-tetris_VERSION_MINOR 0)
 
-set(HEADERS
+set (
+    HEADERS
     src/drawing/foundation/Colour.h
     src/drawing/foundation/Palette.h
     src/drawing/GameplayDisplayer.h
@@ -34,7 +35,8 @@ set(HEADERS
     src/model/foundation/Vec2d.h
 )
 
-set(SOURCES
+set (
+    SOURCES
     src/main.cpp
     src/drawing/foundation/Colour.cpp
     src/drawing/foundation/Palette.cpp
@@ -61,25 +63,25 @@ set(SOURCES
     src/model/foundation/Vec2d.cpp
 )
 
-IF (CMAKE_COMPILER_IS_GNUCXX)
-  SET (CMAKE_CXX_FLAGS "-std=gnu++11")
-ELSEIF (CMAKE_CXX_COMPILER_ID STREQUAL "Clang")
-  set(CMAKE_CXX_FLAGS "-std=c++11")
-  IF(${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
-    set(CMAKE_XCODE_ATTRIBUTE_CLANG_CXX_LIBRARY "libc++")
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -stdlib=libc++")
-  ENDIF ()
-ELSEIF (MSVC)
-  # On by default
-ENDIF ()
+if (CMAKE_COMPILER_IS_GNUCXX)
+    set(CMAKE_CXX_FLAGS "-std=gnu++11")
+elseif (CMAKE_CXX_COMPILER_ID STREQUAL "Clang")
+    set(CMAKE_CXX_FLAGS "-std=c++11")
+    if (${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
+        set(CMAKE_XCODE_ATTRIBUTE_CLANG_CXX_LIBRARY "libc++")
+        set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -stdlib=libc++")
+    endif ()
+elseif (MSVC)
+    # On by default
+endif ()
 
 # lana-tetris
 include_directories(src)
 
-add_executable(
-            lana-tetris 
-            ${SOURCES}
-            ${HEADERS}
+add_executable (
+    lana-tetris 
+    ${SOURCES}
+    ${HEADERS}
 )
 
 # enable testing - not currently in use but required for 'make test' that travis-ci runs.
@@ -90,4 +92,3 @@ add_subdirectory(lib/glfw)
 include_directories(lib/glfw/include)
 target_link_libraries(lana-tetris glfw ${GLFW_LIBRARIES})
 target_link_libraries(lana-tetris glfw ${OPENGL_glu_LIBRARY} ${GLFW_LIBRARIES})
-
