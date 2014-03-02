@@ -2,9 +2,9 @@
 
 An implementation of Tetris in C++. I wrote this as a way of learning C++ and basic game development. It makes use of the [GLFW library](http://www.glfw.org) and [CMake](http://www.cmake.org/) to build the project.
 
-![](http://andystanton.github.io/images/lana-tetris.png)
+![](http://andystanton.github.io/lana-tetris/images/content/1.0/lana-tetris.png)
 
-![](http://andystanton.github.io/images/lana-tetris-gameplay.png)
+![](http://andystanton.github.io/lana-tetris/images/content/1.0/lana-tetris-gameplay.png)
 
 ## Requirements
 
