@@ -12,3 +12,4 @@ lana-tetris
 *.xcodeproj
 *.build
 Debug
+.idea
