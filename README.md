@@ -1,4 +1,4 @@
-# Lana Tetris [![Build Status](https://travis-ci.org/andystanton/lana-tetris.png?branch=master)](https://travis-ci.org/andystanton/lana-tetris)
+# Lana Tetris [![Build Status](https://travis-ci.org/andystanton/lana-tetris.svg?branch=master)](https://travis-ci.org/andystanton/lana-tetris)
 
 An implementation of Tetris in C++. I wrote this as a way of learning C++ and basic game development. It makes use of the [GLFW library](http://www.glfw.org) and [CMake](http://www.cmake.org/) to build the project.
 
